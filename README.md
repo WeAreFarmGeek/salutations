@@ -1,4 +1,4 @@
-Salutations
+Salutations [![Gem Version](https://badge.fury.io/rb/salutations.svg)](http://badge.fury.io/rb/salutations)
 ===========
 
 Salutations contains a list of salutations (Mr, Mrs, Ms, etc) for usage in forms, and ordered by usage.

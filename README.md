@@ -6,4 +6,4 @@ Salutations contains a list of salutations (Mr, Mrs, Ms, etc) for usage in forms
 
 To use in a form:
 
-  <%= f.select(:salutation, options_for_select(Salutations::get)) %>
+    <%= f.select(:salutation, options_for_select(Salutations::get)) %>

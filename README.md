@@ -6,9 +6,13 @@ Salutations contains a list of salutations (Mr, Mrs, Ms, etc) - sometimes also k
 
 To use in a form:
 
-    <%= f.select(:salutation, options_for_select(Salutations::get)) %>
+```ruby
+<%= f.select(:salutation, options_for_select(Salutations::get)) %>
+```
 
 You can also select Salutations by theme like so:
 
-    Salutations::FORMAL
-    => ["Sir", "Madam", "Dame", "Lord", "Lady", "Viscount"]
+```ruby
+Salutations::FORMAL
+=> ["Sir", "Madam", "Dame", "Lord", "Lady", "Viscount"]
+```
